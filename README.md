@@ -4,11 +4,18 @@
 Actividades Clases Desarrollo y Arquitectura Web
 
 ## Actividad Clase 2 - Noticia
+html: ActividadClase2_Noticia.html
+URL Referencia:
+https://www.bing.com/news/search?q=infobae+EN+VIVO%3a+La+UE+suspendi%c3%b3+los+aranceles+a+EEUU+por+90+d%c3%adas+para+negociar+un+acuerdo+con+Trump+y+las+bolsas+se+recuperan&qpvt=infobae+EN+VIVO%3a+La+UE+suspendi%c3%b3+los+aranceles+a+EEUU+por+90+d%c3%adas+para+negociar+un+acuerdo+con+Trump+y+las+bolsas+se+recuperan&FORM=EWRE
 
 ## Actividad Clase 3 - Noticia
+html: ActividadClase3_Noticia.html
 URL Referencia:
 https://www.infobae.com/deportes/2025/05/04/toque-y-dano-en-el-auto-asi-fue-el-abandono-de-jack-doohan-en-el-gp-de-miami-en-medio-de-los-rumores-de-reemplazo-por-colapinto/#:~:text=Este%20domingo%20abandon%C3%B3%20antes%20de%20cumplirse%20la%20primera,el%20reemplazo%20de%20parte%20del%20argentino%20Franco%20Colapinto.
 
 ## Actividad Clase 4 - Noticia
+hmtl: ActividadClase4_Noticia.html
 URL Referencia:
 https://www.infobae.com/deportes/2025/05/04/toque-y-dano-en-el-auto-asi-fue-el-abandono-de-jack-doohan-en-el-gp-de-miami-en-medio-de-los-rumores-de-reemplazo-por-colapinto/#:~:text=Este%20domingo%20abandon%C3%B3%20antes%20de%20cumplirse%20la%20primera,el%20reemplazo%20de%20parte%20del%20argentino%20Franco%20Colapinto.
+
+
