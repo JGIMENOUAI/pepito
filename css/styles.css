@@ -18,3 +18,83 @@
 .font-infobae {
     font-family: 'Roboto','sans-serif';
 }
+
+.container {
+    width: 90%;
+    text-align: center;
+}
+
+.header {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-links {
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    height: 32px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    align-items: center;
+}
+
+.article {
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.section-link {
+    font-size: 16px;
+}
+
+.headline {
+    font-size: 46px;
+    display: block;
+    text-align: left;
+}
+
+.subheadline {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.separator {
+    border-top: 1px solid gray;
+    margin-bottom: 5px;
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+}
+
+.image-caption {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.padding-botton {
+    padding-bottom: 10px;
+}
+
+.no-margin-left {
+    margin-left: 0px;
+    
+}
