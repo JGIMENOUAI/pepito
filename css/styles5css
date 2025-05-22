@@ -1,3 +1,22 @@
+
+@media (min-width: 768px) {
+    .flex-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .flex-item {
+        width: 48%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .flex-item {
+        width: 30%;
+    }
+}
+
 /* CONTENEDORES GENERALES */
 .container {
     width: 90%;

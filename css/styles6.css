@@ -3,9 +3,6 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
 }
 
 .font-infobae {
@@ -146,27 +143,4 @@
 
 .primary-button:hover {
     background-color: #e67300;
-}
-
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Flexbox properties */
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.flex-item {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
 }

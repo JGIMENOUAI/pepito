@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticia</title>
-    <link rel="stylesheet" href="styles5.css">
+    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticia</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Ejemplo de <link> para ícono o redes sociales -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
 </head>
 <body>
     <div class="flex-container">
-        <header class="flex-item">
-            <h1>La largada del GP de Miami</h1>
-        </header>
-        <div class="article-content flex-item">
-            <p>Jack Doohan pudo haber transitado sus últimos metros como piloto titular de Fórmula 1. Este domingo abandonó antes de cumplirse la primera vuelta en el Gran Premio de Miami, por la sexta fecha de la temporada. El australiano volvió a equivocarse en medio de los rumores de su salida del equipo Alpine y el reemplazo de parte del argentino Franco Colapinto.</p>
-            <p>Doohan redondeó otro fin de semana para el olvido pese a superar en la clasificación a su compañero de equipo Pierre Gasly. El australiano había tenido un viernes complicado durante la clasificación para la carrera Sprint, y criticó al equipo por radio al que culpó de haberlo mandado a pista en un momento inoportuno, cuando en realidad el oceánico cometió el error al salir de boxes y quedar cruzado cerca del muro.</p>
-            <p>En dicha competencia sabatina resultó en el 16º puesto y más tarde, en la clasificación para la competencia principal, logró pasar a la Q2 por tercera vez desde que está en Alpine y pudo quedarse con el 14º mejor registro, mientras que Gasly obtuvo el 16º crono.</p>
-            <h2>El abandono de Doohan</h2>
-            <p>Este domingo Doohan largó 14º, pero en la primera variante tuvo el mencionado incidente que le costó su segundo abandono en el año y en sus siete participaciones con el equipo francés no pudo sumar puntos. Cabe recordar que debutó en la última fecha de la temporada pasada llevada a cabo en Abu Dhabi.</p>
-            <p>Antes de la competencia en Miami fue Flavio Briatore, asesor ejecutivo de Alpine, el que no confirmó la continuidad de Doohan en Imola, sede de la próxima fecha en el Gran Premio de la Emilia Romaña. El hijo del quíntuple campeón mundial de motociclismo en 500 cm5, Mick Doohan, tuvo hasta aquí malas actuaciones, cometió errores que la valieron la quita de 4 puntos en la Superlicencia y tuvo otras sanciones de 5 segundos por superar los límites de la pista y de 1.000 euros por exceso de velocidad en los boxes.</p>
-            <p>El panorama del oceánico es complejo y desde la llegada de Colapinto el pasado 9 de enero comenzaron los rumores sobre su reemplazo. Infobae adelantó el 22 de abril la posibilidad de que Franco sea titular en Imola. Luego el CEO de YPF, Horacio Marín, lo afirmó en un desliz al creer que su micrófono estaba apagado en una entrevista.</p>
-            <p>“La carrera de Jack terminó en la curva 1 después de una colisión con Lawson”, indicó en sus redes sociales Alpine, con una foto del australiano con cara de frustración y caminando. La imagen tiene tinte de despedida. Los próximos días serían claves para el futuro del australiano de 22 años.</p>
-            <p>Antes de la competencia en Miami fue Flavio Briatore, asesor ejecutivo de Alpine, el que no confirmó la continuidad de Doohan en Imola, sede de la próxima fecha en el Gran Premio de la Emilia Romaña. El hijo del quíntuple campeón mundial de motociclismo en 500 cm5, Mick Doohan, tuvo hasta aquí malas actuaciones, cometió errores que la valieron la quita de 4 puntos en la Superlicencia y tuvo otras sanciones de 5 segundos por superar los límites de la pista y de 1.000 euros por exceso de velocidad en los boxes.</p>
+   
+  <!-- Buscador -->
+  <form class="container font-infobae search-form padding-botton" action="#" method="GET">
+    <input type="text" name="buscar" placeholder="Buscar noticias..." class="search-input">
+    <button type="submit" class="search-button">Buscar</button>
+  </form>
+
+  <!-- Contenido principal -->
+  <div class="container font-infobae">
+    <div class="header">
+        <img src="../pepito/img/logo_infobae_naranja.svg" alt="Logo Infobae" class="logo">
+        <nav class="nav-links">
+            <a href="#inicio" class="nav-enlace">Inicio</a>
+            <a href="#noticias" class="nav-enlace">Noticias</a>
+            <a href="#deportes" class="nav-enlace">Deportes</a>
+            <a href="#contacto" class="nav-enlace">Contacto</a>
+        </nav>
+    </div>
+
+    <div class="article font-infobae">
+      <div class="section">
+        <a class="section-link" aria-label="Deportes">Deportes ></a>
+      </div>
+
+      <div class="article-content font-infobae">
+        <h1 class="headline">Toque y daño en el auto: así fue el abandono de Jack Doohan en el GP de Miami, en medio de los rumores de reemplazo por Colapinto</h1>
+        <h2 class="subheadline">El australiano quedó afuera antes de cumplir la primera vuelta en el circuito callejero de la Florida. El equipo francés no sumó puntos</h2>
+
+        <div class="separator"></div>
+
+        <div class="image-block">
+          <img src="https://media.video-cdn.espn.com/images/fastclipper/2025/0504/evc_AUTO_20250504_no_event_name_eeed4886_5724_4a3a_936f_22a3882d1c7b_16661/evc_AUTO_20250504_no_event_name_eeed4886_5724_4a3a_936f_22a3882d1c7b_16661.jpg" alt="">
+          <p><i>*La largada del GP de Miami</i></p>
         </div>
-        <div class="button-container flex-item">
-            <button>Leer más</button>
+
+        <p><b>Jack Doohan</b> pudo haber transitado sus últimos metros como piloto titular de <b>Fórmula 1</b>. Este domingo abandonó antes de cumplirse la primera vuelta en el <a rel="noopener noreferrer" href="https://www.infobae.com/deportes/2025/05/04/con-verstappen-desde-la-pole-y-posibilidades-de-lluvia-se-correra-el-gp-de-miami-de-f1-hora-tv-y-grilla-de-partida/" target="_blank" title="https://www.infobae.com/deportes/2025/05/04/con-verstappen-desde-la-pole-y-posibilidades-de-lluvia-se-correra-el-gp-de-miami-de-f1-hora-tv-y-grilla-de-partida/" data-mrf-link="https://www.infobae.com/deportes/2025/05/04/con-verstappen-desde-la-pole-y-posibilidades-de-lluvia-se-correra-el-gp-de-miami-de-f1-hora-tv-y-grilla-de-partida/" cmp-ltrk="Links inline" cmp-ltrk-idx="0" mrfobservableid="e258d173-595c-4f2a-b482-59d15aead426"><b>Gran Premio de Miami</b></a>, por la sexta fecha de la temporada. El australiano volvió a equivocarse en medio de los rumores de su salida del equipo <b>Alpine</b> y el reemplazo de parte del argentino <b>Franco Colapinto</b>. </p>
+        <p><b>Doohan</b> redondeó otro fin de semana para el olvido pese a superar en la clasificación a su compañero de equipo <b>Pierre Gasly</b>. El australiano había tenido un viernes complicado durante la clasificación para la carrera Sprint, y<a rel="noopener noreferrer" href="https://www.infobae.com/deportes/2025/05/02/esto-es-inaceptable-el-furioso-reclamo-de-jack-doohan-al-equipo-de-alpine-tras-otra-frustrante-clasificacion-en-la-f1/" target="_blank" title="https://www.infobae.com/deportes/2025/05/02/esto-es-inaceptable-el-furioso-reclamo-de-jack-doohan-al-equipo-de-alpine-tras-otra-frustrante-clasificacion-en-la-f1/" data-mrf-link="https://www.infobae.com/deportes/2025/05/02/esto-es-inaceptable-el-furioso-reclamo-de-jack-doohan-al-equipo-de-alpine-tras-otra-frustrante-clasificacion-en-la-f1/" cmp-ltrk="Links inline" cmp-ltrk-idx="1" mrfobservableid="003c5359-0c3f-4505-a484-1195e68d4eec"><b> criticó al equipo por radio al que culpó de haberlo mandado a pista en un momento inoportuno</b></a>, cuando en realidad el oceánico cometió el error al salir de boxes y quedar cruzado cerca del muro. </p>
+        <p>En dicha competencia sabatina resultó en el 16º puesto y más tarde, en la clasificación para la competencia principal, logró pasar a la Q2 por tercera vez desde que está en <b>Alpine </b>y pudo quedarse con el 14º mejor registro, mientras que Gasly obtuvo el 16º crono. </p>
+        
+        <div class="image-block">
+            <img src="https://media.video-cdn.espn.com/images/fastclipper/2025/0504/evc_AUTO_20250504_no_event_name_de9af30b_4322_470c_9e25_9a29609c2683_16661/evc_AUTO_20250504_no_event_name_de9af30b_4322_470c_9e25_9a29609c2683_16661.jpg" alt="">
+            <p><i>*El abandono de Doohan</i></p>
         </div>
+        <p>Este domingo<b> Doohan</b> largó 14º, pero en la primera variante tuvo el mencionado incidente que le costó su segundo abandono en el año y en sus siete participaciones con el equipo francés <b>no pudo sumar puntos</b>. Cabe recordar que debutó en la última fecha de la temporada pasada llevada a cabo en <b>Abu Dhabi</b>. </p>
+        <p>Antes de la competencia en <b>Miami </b>fue <a rel="noopener noreferrer" href="https://www.infobae.com/deportes/2025/05/04/la-sugerente-frase-de-flavio-briatore-sobre-colapinto-segundos-antes-del-accidente-de-doohan-gp-de-miami/" target="_blank" title="https://www.infobae.com/deportes/2025/05/04/la-sugerente-frase-de-flavio-briatore-sobre-colapinto-segundos-antes-del-accidente-de-doohan-gp-de-miami/" data-mrf-link="https://www.infobae.com/deportes/2025/05/04/la-sugerente-frase-de-flavio-briatore-sobre-colapinto-segundos-antes-del-accidente-de-doohan-gp-de-miami/" cmp-ltrk="Links inline" cmp-ltrk-idx="2" mrfobservableid="f83a6e38-a6dd-4a04-9fe1-d4a26d44153e"><b>Flavio Briatore, asesor ejecutivo de Alpine, el que no confirmó la continuidad de Doohan en Imola</b></a>, sede de la próxima fecha en el <b>Gran Premio de la Emilia Romaña</b>. El hijo del quíntuple campeón mundial de motociclismo en 500 cm5, <b>Mick Doohan</b>, tuvo hasta aquí malas actuaciones, cometió errores que la valieron la <b>quita de 4 puntos en la Superlicencia</b> y tuvo otras sanciones de 5 segundos por superar los límites de la pista y de 1.000 euros por exceso de velocidad en los boxes. </p>
+       <div class="align-left no-margin-left padding-botton">
+            <picture>
+                <img alt="El posteo de Alpine sobre" class="global-image" decoding="async" fetchpriority="low" height="500" loading="lazy" src="https://www.infobae.com/resizer/v2/5XN4U6EKBZDBZJWJNP7EI52TWE.jpg?auth=3364711da5d63d7eaa00abf76fa267cdc9171cecf16d0fabd584baf8838ed10f&amp;smart=true&amp;width=350&amp;height=263&amp;quality=85" width="600">
+            </picture>
+            <figcaption>*El posteo de Alpine sobre Doohan (@alpinef1team)</figcaption>
+        </div>
+        <p>El panorama del oceánico es complejo y desde la llegada de <b>Colapinto </b>el pasado 9 de enero comenzaron los rumores sobre su reemplazo. <a rel="noopener noreferrer" href="https://www.infobae.com/deportes/2025/04/23/franco-colapinto-cada-vez-mas-cerca-de-volver-a-correr-en-la-formula-1-el-circuito-que-podria-marcar-su-debut-con-alpine/" target="_blank" title="https://www.infobae.com/deportes/2025/04/23/franco-colapinto-cada-vez-mas-cerca-de-volver-a-correr-en-la-formula-1-el-circuito-que-podria-marcar-su-debut-con-alpine/" data-mrf-link="https://www.infobae.com/deportes/2025/04/23/franco-colapinto-cada-vez-mas-cerca-de-volver-a-correr-en-la-formula-1-el-circuito-que-podria-marcar-su-debut-con-alpine/" cmp-ltrk="Links inline" cmp-ltrk-idx="3" mrfobservableid="5b8dba79-df07-4af6-b70f-4aa8654036e8"><b>Infobae adelantó el 22 de abril la posibilidad de que Franco sea titular en Imola</b></a>. Luego el CEO de YPF,<a rel="noopener" href="" target="_blank" title=""> <b>Horacio Marín</b>, <b>lo afirmó en un desliz al creer que su micrófono estaba apagado en una entrevista</b></a>. </p>
+        <p>“La carrera de Jack terminó en la curva 1 después de una colisión con Lawson”, indicó en sus redes sociales Alpine, con una foto del australiano con cara de frustración y caminando. La imagen tiene tinte de despedida. Los próximos días serían claves para el futuro del australiano de 22 años. </p>
+        <p>Antes de la competencia en <b>Miami </b>fue <a rel="noopener noreferrer" href="https://www.infobae.com/deportes/2025/05/04/la-sugerente-frase-de-flavio-briatore-sobre-colapinto-segundos-antes-del-accidente-de-doohan-gp-de-miami/" target="_blank" title="https://www.infobae.com/deportes/2025/05/04/la-sugerente-frase-de-flavio-briatore-sobre-colapinto-segundos-antes-del-accidente-de-doohan-gp-de-miami/" data-mrf-link="https://www.infobae.com/deportes/2025/05/04/la-sugerente-frase-de-flavio-briatore-sobre-colapinto-segundos-antes-del-accidente-de-doohan-gp-de-miami/" cmp-ltrk="Links inline" cmp-ltrk-idx="2" mrfobservableid="f83a6e38-a6dd-4a04-9fe1-d4a26d44153e"><b>Flavio Briatore, asesor ejecutivo de Alpine, el que no confirmó la continuidad de Doohan en Imola</b></a>, sede de la próxima fecha en el <b>Gran Premio de la Emilia Romaña</b>. El hijo del quíntuple campeón mundial de motociclismo en 500 cm5, <b>Mick Doohan</b>, tuvo hasta aquí malas actuaciones, cometió errores que la valieron la <b>quita de 4 puntos en la Superlicencia</b> y tuvo otras sanciones de 5 segundos por superar los límites de la pista y de 1.000 euros por exceso de velocidad en los boxes. </p>
+        
+        <div class="separator"></div>
+
+        <!-- Botón de acción -->
+        <div class="button-container container">
+          <button class="primary-button">Suscribirme a Noticias</button>
+        </div>
+      </div>
+    </div>
+  </div>
     </div>
 </body>
 </html>
