@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open ActividadClase4_Noticia.html",
+            "file": "c:\\Users\\JGIMENO\\OneDrive - Ternium\\Documentos\\1. Archivos\\1. Datos Propios\\3. Estudios\\0. Ing. en Sistemas\\2025  Ing. en Sistemas UAI\\DESARROLLO Y ARQUITECTURA WEB\\Repo\\pepito\\ActividadClase4_Noticia.html"
+        }
+    ]
+}
