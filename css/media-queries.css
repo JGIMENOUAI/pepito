@@ -1,20 +1,5 @@
-/* Tablets */
-@media (min-width: 600px) {
-  .noticia-principal {
-    flex-direction: row;
-  }
-
-  .noticia-principal .contenido {
-    margin-left: 1rem;
-  }
-
-  .nav-desktop {
-    display: none;
-  }
-}
-
-/* Escritorio */
-@media (min-width: 992px) {
+/* media-queries.css */
+@media (min-width: 768px) {
   .nav-mobile {
     display: none;
   }
@@ -22,27 +7,31 @@
   .nav-desktop {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    background: #222;
-    color: white;
-    padding: 1rem;
-  }
-
-  .nav-desktop a {
-    color: white;
-    text-decoration: none;
+    gap: 1rem;
   }
 
   main {
-    display: flex;
-    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .noticia-principal {
-    flex: 3;
+    flex: 2 1 60%;
+  }
+
+  .noticias-secundarias {
+    flex: 1 1 35%;
   }
 
   .publicidad {
-    flex: 1;
+    flex: 1 1 100%;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    max-width: 1200px;
+    margin: auto;
   }
 }
