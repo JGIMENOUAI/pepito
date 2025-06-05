@@ -1,0 +1,48 @@
+/* Tablets */
+@media (min-width: 600px) {
+  .noticia-principal {
+    flex-direction: row;
+  }
+
+  .noticia-principal .contenido {
+    margin-left: 1rem;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+}
+
+/* Escritorio */
+@media (min-width: 992px) {
+  .nav-mobile {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: #222;
+    color: white;
+    padding: 1rem;
+  }
+
+  .nav-desktop a {
+    color: white;
+    text-decoration: none;
+  }
+
+  main {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .noticia-principal {
+    flex: 3;
+  }
+
+  .publicidad {
+    flex: 1;
+  }
+}
