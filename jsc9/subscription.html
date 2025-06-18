@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Suscripción</title>
+    <link rel="stylesheet" href="/jsc9/styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="form-title">HOLA</h1>
+    </header>
+    <main>
+        <form id="subscription-form">
+            <div class="form-column">
+                <label>Nombre completo
+                    <input type="text" id="fullName" name="fullName">
+                    <span class="error" id="error-fullName"></span>
+                </label>
+                <label>Email
+                    <input type="email" id="email" name="email">
+                    <span class="error" id="error-email"></span>
+                </label>
+                <label>Contraseña
+                    <input type="password" id="password" name="password">
+                    <span class="error" id="error-password"></span>
+                </label>
+                <label>Repetir contraseña
+                    <input type="password" id="repeatPassword" name="repeatPassword">
+                    <span class="error" id="error-repeatPassword"></span>
+                </label>
+                <label>Edad
+                    <input type="number" id="age" name="age">
+                    <span class="error" id="error-age"></span>
+                </label>
+            </div>
+            <div class="form-column">
+                <label>Teléfono
+                    <input type="text" id="phone" name="phone">
+                    <span class="error" id="error-phone"></span>
+                </label>
+                <label>Dirección
+                    <input type="text" id="address" name="address">
+                    <span class="error" id="error-address"></span>
+                </label>
+                <label>Ciudad
+                    <input type="text" id="city" name="city">
+                    <span class="error" id="error-city"></span>
+                </label>
+                <label>Código Postal
+                    <input type="text" id="zip" name="zip">
+                    <span class="error" id="error-zip"></span>
+                </label>
+                <label>DNI
+                    <input type="text" id="dni" name="dni">
+                    <span class="error" id="error-dni"></span>
+                </label>
+            </div>
+            <div class="form-actions">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>© Diario Online</p>
+    </footer>
+    <script src="/jsc9/form.js"></script>
+</body>
+</html>
