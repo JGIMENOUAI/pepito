@@ -36,6 +36,11 @@ form {
   color: red;
 }
 
+.hola {
+  font-size: 12px;
+  color: red;
+}
+
 label {
   display: block;
   margin-bottom: 20px;
