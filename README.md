@@ -30,3 +30,8 @@ https://www.infobae.com/deportes/2025/05/04/toque-y-dano-en-el-auto-asi-fue-el-a
 Portada de un diario responsiva creada con HTML y CSS (Flexbox y Mobile First).
 hmtl: ActividadClase6_Noticia.html
 CSS: main.css, media-queries.css, reset.css
+
+## Actividad Clase 8 - JavaScript
+Ejercicios JS 
+Directorio: /pepito/jsc8
+
