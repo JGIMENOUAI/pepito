@@ -147,3 +147,19 @@ footer {
 .width-100 {
   width: 100px;
 }
+
+.nav-desktop button {
+  background-color: #f1c40f;
+  color: #2c3e50;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-desktop button:hover {
+  background-color: #d4ac0d;
+  transform: scale(1.05);
+}

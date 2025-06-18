@@ -35,3 +35,13 @@ CSS: main.css, media-queries.css, reset.css
 Ejercicios JS 
 Directorio: /pepito/jsc8
 
+## Actividad Clase 9 - JavaScript
+Formulario de Suscripción en Noticia (incorporación de boton de subscripción con formulario para datos)
+Archivos Nuevos Formularios: 
+    - /jsc9/form.js
+    - /jsc9/styles.css
+    - /jsc9/subscription.html
+Archivos Modificados:  
+    - ActividadClase6_Noticia.html 
+    - css/main.css
+
