@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Rick and Morty Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/rick.png" alt="Rick" class="logo width-200" >
+        <h1>Rick and Morty</h1>
+        <img src="img/morty.png" alt="Rick" class="logo width-200" >
+    </header>
+    <main>
+        <div class="buttons">
+            <button id="getAllBtn">Personajes</button>
+            <button id="filterBtn">Filtrar</button>
+        </div>
+        <form id="filterForm" style="display: none;">
+            <input type="text" id="name" placeholder="Nombre">
+            <select id="status"></select>
+            <select id="species"></select>
+            <select id="type"></select>
+            <select id="gender"></select>
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="output"></div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
+

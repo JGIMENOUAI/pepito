@@ -45,3 +45,13 @@ Archivos Modificados:
     - ActividadClase6_Noticia.html 
     - css/main.css
 
+## Actividad Clase 11 - TP - API REST
+API REST ofrecida por rickandmortyapi.com
+Archivos Nuevos para Formularios: 
+    - /jsc11/scripts.js
+    - /jsc11/styles.css
+    - /jsc11/index.html
+    - /jsc11/img/
+
+
+
